@@ -1,2 +1,1 @@
-# react-note-app
- 
+not ready yet
