@@ -1,12 +1,6 @@
 import React, { Component } from 'react'
 import NoteEditorColor from './NoteEditorColor.jsx';
-
-const colors = [
-  '#9cc2ff',
-  '#d5d6db',
-  '#e6d3d3',
-  '#ff7a7a'
-]
+import colors from '../../storage/colors'
 
 export class NoteEditorColorPicker extends Component {
   constructor(props){

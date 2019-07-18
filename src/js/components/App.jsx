@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import NoteEditor from './NoteEditor.jsx';
-import NotesGrid from './NotesGrid.jsx';
+import NoteEditor from './NoteEditor/NoteEditor.jsx';
+import NotesGrid from './NotesGrid/NotesGrid.jsx';
 
 class NoteApp extends Component {
   constructor(props) {
@@ -17,7 +17,7 @@ class NoteApp extends Component {
   addNote(options) {
     if (!options.text.length) return;
     let notesArr = this.state.notes.slice();
-    notesArr.push({
+    notesArr.unshift({
       text: options.text,
       color: options.color,
     });

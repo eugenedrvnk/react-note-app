@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 
 export class NoteEditorColor extends Component {
 
-
-
   render() {
     return (
       <div 

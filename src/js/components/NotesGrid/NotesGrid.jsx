@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Note from './Note.jsx';
+import Note from './Note/Note.jsx';
 
 class NotesGrid extends Component {
 
